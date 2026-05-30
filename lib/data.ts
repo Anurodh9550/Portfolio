@@ -44,7 +44,7 @@ export const navItems = [
 ];
 
 export const stats = [
-  { value: "20+", label: "Projects Built" },
+  { value: "25+", label: "Projects Built" },
   { value: "4", label: "Work Experiences" },
   { value: "5+", label: "Certifications" },
   { value: "7.4", label: "CGPA" },
@@ -161,13 +161,61 @@ export const projects: Project[] = [
     period: "Aug 2023 – Nov 2023",
   },
   {
+    title: "Kalpna Traders Platform",
+    description:
+      "Full-stack business platform for Kalpna Traders — billing, inventory, customer management, role-based admin dashboards, and reporting. Built end-to-end with a modern frontend and REST APIs.",
+    tags: ["Next.js", "React", "REST API", "Tailwind"],
+    github: "https://github.com/Anurodh9550",
+    href: "https://traders-gray-eta.vercel.app/",
+    featured: true,
+    category: "Full Stack",
+    period: "2026 — Present",
+  },
+  {
+    title: "Old Car Bazar",
+    description:
+      "Online marketplace to buy & sell used cars — listings with photos, search & filters, seller dashboards, and a smooth, mobile-friendly browsing experience.",
+    tags: ["Next.js", "React", "Marketplace", "Tailwind"],
+    github: "https://github.com/Anurodh9550",
+    href: "https://oldcarbazar.com/",
+    featured: true,
+    category: "Marketplace",
+  },
+  {
     title: "Gau Seva Platform",
     description:
       "Full-stack platform for Rashtriya Gau Seva Sangh — member management, donations, events, and admin dashboard. Built with a Django backend and modern web frontend.",
     tags: ["Django", "DRF", "React", "MySQL"],
     github: "https://github.com/Anurodh9550/gau-seva",
-    href: "#",
+    href: "https://gau-seva-seven.vercel.app/",
     category: "Full Stack",
+  },
+  {
+    title: "Billing & Invoice App",
+    description:
+      "Lightweight billing system to generate invoices, manage customers, track payments, and export reports — built for small businesses and freelancers.",
+    tags: ["Django", "MySQL", "PDF", "Reports"],
+    github: "https://github.com/Anurodh9550/billing-app",
+    href: "https://billing-app-zjuy.vercel.app/",
+    category: "Business App",
+  },
+  {
+    title: "Counselling Platform",
+    description:
+      "Online counselling and admission management portal with student profiles, slot booking, and admin controls — streamlining the counselling workflow.",
+    tags: ["Django", "Auth", "Dashboard"],
+    github: "https://github.com/Anurodh9550/Counslling",
+    href: "https://counslling.vercel.app/",
+    category: "EdTech",
+  },
+  {
+    title: "Admin Panel Suite",
+    description:
+      "Reusable admin panel with role-based access, CRUD modules, charts, and analytics — ready to plug into any Django backend.",
+    tags: ["Django", "Charts", "RBAC"],
+    github: "https://github.com/Anurodh9550/admin-panel",
+    href: "https://admin-panel-gules-eta-29.vercel.app/",
+    category: "Internal Tool",
   },
   {
     title: "Kansa Collective — E-commerce",
@@ -179,31 +227,31 @@ export const projects: Project[] = [
     category: "E-commerce",
   },
   {
-    title: "Billing & Invoice App",
+    title: "Kila — Web App",
     description:
-      "Lightweight billing system to generate invoices, manage customers, track payments, and export reports — built for small businesses and freelancers.",
-    tags: ["Django", "MySQL", "PDF", "Reports"],
-    github: "https://github.com/Anurodh9550/billing-app",
-    href: "#",
-    category: "Business App",
+      "Modern, responsive web product with clean UI, smooth interactions, and a focused user flow. Designed and shipped with Next.js and Tailwind.",
+    tags: ["Next.js", "React", "Tailwind"],
+    github: "https://github.com/Anurodh9550",
+    href: "https://kila-f3b7.vercel.app/",
+    category: "Web App",
   },
   {
-    title: "Counselling Platform",
+    title: "Message Chair — Chat App",
     description:
-      "Online counselling and admission management portal with student profiles, slot booking, and admin controls — streamlining the counselling workflow.",
-    tags: ["Django", "Auth", "Dashboard"],
-    github: "https://github.com/Anurodh9550/Counslling",
-    href: "#",
-    category: "EdTech",
+      "Real-time messaging interface with a clean conversation layout, contact list, and responsive UI — designed for fast, friction-free chats on any device.",
+    tags: ["React", "Realtime", "Chat", "Tailwind"],
+    github: "https://github.com/Anurodh9550",
+    href: "https://message-chair.vercel.app/",
+    category: "Web App",
   },
   {
-    title: "Admin Panel Suite",
+    title: "Personal Portfolio",
     description:
-      "Reusable admin panel with role-based access, CRUD modules, charts, and analytics — ready to plug into any Django backend.",
-    tags: ["Django", "Charts", "RBAC"],
-    github: "https://github.com/Anurodh9550/admin-panel",
-    href: "#",
-    category: "Internal Tool",
+      "This very site — a 3D, animated developer portfolio built end-to-end with Next.js, Three.js, and Framer Motion. Custom cursor, scroll effects, and a polished modern UI.",
+    tags: ["Next.js", "Three.js", "Framer Motion", "Tailwind"],
+    github: "https://github.com/Anurodh9550",
+    href: "https://portfolio-npbi.vercel.app/",
+    category: "Personal",
   },
 ];
 
